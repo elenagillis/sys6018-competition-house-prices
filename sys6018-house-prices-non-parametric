@@ -2,6 +2,7 @@
 # sys6018-house-prices-non-parametric.R
 # House Prices Kaggle Competition
 # September 18, 2018
+# Team C1-3
 ################################################################################
 library(readr)  
 library(dplyr)
