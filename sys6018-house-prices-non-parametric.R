@@ -99,7 +99,7 @@ summary(test)
 edistance <- function(testobj, trainobj)
 {
   difference = 0
-  for(i in c(1:(length(testobj)-1) ))
+  for(i in 1:length(testobj)) 
   {
     difference = difference + (testobj[[i]]-trainobj[[i]])^2
   }
